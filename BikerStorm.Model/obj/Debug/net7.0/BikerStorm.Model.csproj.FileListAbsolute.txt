@@ -1,0 +1,14 @@
+D:\Projects\C#\BikerStorm\BikerStorm.Model\bin\Debug\net7.0\BikerStorm.Model.deps.json
+D:\Projects\C#\BikerStorm\BikerStorm.Model\bin\Debug\net7.0\BikerStorm.Model.runtimeconfig.json
+D:\Projects\C#\BikerStorm\BikerStorm.Model\bin\Debug\net7.0\BikerStorm.Model.dll
+D:\Projects\C#\BikerStorm\BikerStorm.Model\bin\Debug\net7.0\BikerStorm.Model.pdb
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\BikerStorm.Model.csproj.AssemblyReference.cache
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\BikerStorm.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\BikerStorm.Model.AssemblyInfoInputs.cache
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\BikerStorm.Model.AssemblyInfo.cs
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\BikerStorm.Model.csproj.CoreCompileInputs.cache
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\BikerStorm.Model.dll
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\refint\BikerStorm.Model.dll
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\BikerStorm.Model.pdb
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\BikerStorm.Model.genruntimeconfig.cache
+D:\Projects\C#\BikerStorm\BikerStorm.Model\obj\Debug\net7.0\ref\BikerStorm.Model.dll

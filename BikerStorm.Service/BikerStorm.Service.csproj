@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BikerStorm.DTO\BikerStorm.DTO.csproj" />
+    <ProjectReference Include="..\BikerStorm.Model\BikerStorm.Model.csproj" />
+    <ProjectReference Include="..\BikerStorm.Repository\BikerStorm.Repository.csproj" />
+    <ProjectReference Include="..\BikerStorm.Utilities\BikerStorm.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\bin\Debug\net7.0\BikerStorm.DTO.deps.json
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\bin\Debug\net7.0\BikerStorm.DTO.dll
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\bin\Debug\net7.0\BikerStorm.DTO.pdb
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\obj\Debug\net7.0\BikerStorm.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\obj\Debug\net7.0\BikerStorm.DTO.AssemblyInfoInputs.cache
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\obj\Debug\net7.0\BikerStorm.DTO.AssemblyInfo.cs
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\obj\Debug\net7.0\BikerStorm.DTO.csproj.CoreCompileInputs.cache
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\obj\Debug\net7.0\BikerStorm.DTO.dll
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\obj\Debug\net7.0\refint\BikerStorm.DTO.dll
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\obj\Debug\net7.0\BikerStorm.DTO.pdb
+D:\Projects\C#\BikerStorm\BikerStorm.DTO\obj\Debug\net7.0\ref\BikerStorm.DTO.dll

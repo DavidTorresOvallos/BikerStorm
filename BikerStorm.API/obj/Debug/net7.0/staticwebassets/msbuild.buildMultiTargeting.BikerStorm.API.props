@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BikerStorm.API.props" />
+</Project>

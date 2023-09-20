@@ -1,0 +1,15 @@
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\bin\Debug\net7.0\BikerStorm.Repository.deps.json
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\bin\Debug\net7.0\BikerStorm.Repository.dll
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\bin\Debug\net7.0\BikerStorm.Repository.pdb
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\BikerStorm.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\BikerStorm.Repository.AssemblyInfoInputs.cache
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\BikerStorm.Repository.AssemblyInfo.cs
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\BikerStorm.Repository.csproj.CoreCompileInputs.cache
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\BikerStorm.Repository.dll
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\refint\BikerStorm.Repository.dll
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\BikerStorm.Repository.pdb
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\ref\BikerStorm.Repository.dll
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\BikerStorm.Repository.csproj.AssemblyReference.cache
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\bin\Debug\net7.0\BikerStorm.Model.dll
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\bin\Debug\net7.0\BikerStorm.Model.pdb
+D:\Projects\C#\BikerStorm\BikerStorm.Repository\obj\Debug\net7.0\BikerStorm.Repository.csproj.CopyComplete
