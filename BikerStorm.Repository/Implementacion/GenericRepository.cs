@@ -19,7 +19,7 @@ namespace BikerStorm.Repository.Implementacion
 
         public IQueryable<TModel> Request(Expression<Func<TModel, bool>>? filter = null)
         {
-            IQueryable<TModel> request = (filter == null) ? _dbContext.Set<TModel>().Where(filter);
+            IQueryable<TModel> request = (filter == null) ? _dbContext.Set<TModel>() : _dbContext.Set<TModel>().Where(filter);
             return request;
         }
         public async Task<TModel> Create(TModel model)

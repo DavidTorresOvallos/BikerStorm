@@ -244,6 +244,9 @@ public partial class BikerStormContext : DbContext
             entity.Property(e => e.Precio)
                 .HasColumnType("decimal(10, 2)")
                 .HasColumnName("precio");
+            entity.Property(e => e.PrecioOferta)
+                .HasColumnType("decimal(18,2")
+                .HasColumnName("preciooferta");
             entity.Property(e => e.Stock).HasColumnName("stock");
             entity.Property(e => e.UrlImagen)
                 .HasMaxLength(100)

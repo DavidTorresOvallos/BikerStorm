@@ -30,4 +30,6 @@ public partial class Producto
     public int? Cantidad { get; set; }
 
     public virtual Categoria? IdCategoriaNavigation { get; set; }
+
+    public decimal? PrecioOferta { get; set; }
 }
