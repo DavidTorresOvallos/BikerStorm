@@ -10,7 +10,7 @@ namespace BikerStorm.DTO
 {
     public class ProductoDTO
     {
-        int IdProducto { get; set; }
+        public int IdProducto { get; set; }
 
         [Required(ErrorMessage = "Ingrese Nombre")]
         public string? NombreImagen { get; set; }

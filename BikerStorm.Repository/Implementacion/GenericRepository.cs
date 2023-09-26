@@ -21,6 +21,7 @@ namespace BikerStorm.Repository.Implementacion
         {
             IQueryable<TModel> request = (filter == null) ? _dbContext.Set<TModel>() : _dbContext.Set<TModel>().Where(filter);
             return request;
+
         }
         public async Task<TModel> Create(TModel model)
         {
