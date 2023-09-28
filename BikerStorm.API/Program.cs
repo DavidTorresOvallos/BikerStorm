@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using BikerStorm.Repository.Contrato;
 using BikerStorm.Repository.Implementacion;
 using BikerStorm.Utilities;
+using BikerStorm.Service.Contrato;
+using BikerStorm.Service.Implementacion;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,12 @@ builder.Services.AddTransient(typeof(IGenericRepository<>), typeof(GenericReposi
 builder.Services.AddScoped<IVentaRepository, VentaRepository>();
 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ProductService, ProductService>();
+builder.Services.AddScoped<IVentaService, VentaService>();
+builder.Services.AddScoped<IDashboardService, DashboardService>();
 
 var app = builder.Build();
 

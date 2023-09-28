@@ -1,5 +1,4 @@
-﻿using BikerStorm.DTO;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +7,8 @@ using BikerStorm.DTO;
 
 namespace BikerStorm.Service.Contrato
 {
-    public interface IVentaService
+    public interface IDashboardService
     {
-        Task<VentaDTO> RegisterSale(VentaDTO model);
+        DashboardDTO Resumen();
     }
 }
