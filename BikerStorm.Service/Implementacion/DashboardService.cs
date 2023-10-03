@@ -16,7 +16,6 @@ namespace BikerStorm.Service.Implementacion
         private readonly IVentaRepository _ventaRepository;
         private readonly IGenericRepository<Usuario> _userRepository;
         private readonly IGenericRepository<Producto> _productRepository;
-        private readonly IMapper _mapper;
 
         public DashboardService
             (IVentaRepository ventaRepository,

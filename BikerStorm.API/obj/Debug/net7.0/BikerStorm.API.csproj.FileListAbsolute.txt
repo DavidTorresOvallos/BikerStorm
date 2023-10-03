@@ -80,3 +80,4 @@ D:\Projects\C#\BikerStorm\BikerStorm.API\obj\Debug\net7.0\refint\BikerStorm.API.
 D:\Projects\C#\BikerStorm\BikerStorm.API\obj\Debug\net7.0\BikerStorm.API.pdb
 D:\Projects\C#\BikerStorm\BikerStorm.API\obj\Debug\net7.0\BikerStorm.API.genruntimeconfig.cache
 D:\Projects\C#\BikerStorm\BikerStorm.API\obj\Debug\net7.0\ref\BikerStorm.API.dll
+D:\Projects\C#\BikerStorm\BikerStorm.API\obj\Debug\net7.0\BikerStorm.API.MvcApplicationPartsAssemblyInfo.cs
