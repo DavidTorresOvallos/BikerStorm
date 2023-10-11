@@ -10,7 +10,8 @@ namespace BikerStorm.Service.Contrato
 {
     public interface IProductService
     {
-        Task<List<ProductoDTO>> Directory(string buscar);
+        Task<List<ProductoDTO>> List(string buscar);
+        Task<List<ProductoDTO>> Directory(string categoria, string buscar);
         Task<ProductoDTO> Get(int id);
         Task<ProductoDTO> Create(ProductoDTO model);
         Task<bool> Edit(ProductoDTO model);

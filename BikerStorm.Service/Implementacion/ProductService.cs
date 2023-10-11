@@ -128,16 +128,34 @@ namespace BikerStorm.Service.Implementacion
             }
         }
 
-        public async Task<List<ProductoDTO>> Directory(string buscar)
+        public async Task<List<ProductoDTO>> Directory(string categoria, string buscar)
+        {
+            try
+            {
+                var consulta = _modelRepository.Request(p =>
+                p.NombreImagen.ToLower().Contains(buscar.ToLower()) &&
+                p.IdCategoriaNavigation.Descripcion.ToLower().Contains(categoria.ToLower())
+                );
+
+                consulta = consulta.Include(c => c.IdCategoriaNavigation);
+
+                List<ProductoDTO> list = _mapper.Map<List<ProductoDTO>>(await consulta.ToListAsync());
+                return list;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public async Task<List<ProductoDTO>> List(string buscar)
         {
             try
             {
                 var consulta = _modelRepository.Request(p =>
                 p.NombreImagen.ToLower().Contains(buscar.ToLower())
                 );
-
                 consulta = consulta.Include(c => c.IdCategoriaNavigation);
-
                 List<ProductoDTO> list = _mapper.Map<List<ProductoDTO>>(await consulta.ToListAsync());
                 return list;
             }

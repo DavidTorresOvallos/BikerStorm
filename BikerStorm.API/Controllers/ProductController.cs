@@ -3,24 +3,24 @@ using Microsoft.AspNetCore.Mvc;
 
 using BikerStorm.Service.Contrato;
 using BikerStorm.DTO;
+using BikerStorm.Service.Implementacion;
 
 namespace BikerStorm.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class ProductController : ControllerBase
     {
-        private readonly IUserService _userService;
-
-        public UserController(IUserService userService)
+        private readonly IProductService _productService;
+        public ProductController(IProductService productService)
         {
-            this._userService = userService;
+            this._productService = productService;
         }
 
-        [HttpGet("Lista/{rol:alpha}/{buscar:alpha?}")]
-        public async Task<IActionResult> Lista(string rol, string buscar = "NA")
+        [HttpGet("Lista/{buscar:alpha?")]
+        public async Task<IActionResult> Lista(string buscar = "NA")
         {
-            var response = new ResponseDTO<List<UsuarioDTO>>();
+            var response = new ResponseDTO<List<ProductoDTO>>();
 
             try
             {
@@ -29,7 +29,35 @@ namespace BikerStorm.API.Controllers
                     buscar = "";
                 }
                 response.EsCorrecto = true;
-                response.Resultado = await _userService.List(rol, buscar);
+                response.Resultado = await _productService.List(buscar);
+            }
+            catch (Exception ex)
+            {
+                response.EsCorrecto = false;
+                response.Mensaje = ex.Message;
+            }
+            return Ok(response);
+        }
+
+
+        [HttpGet("Catalogo/{categoria:alpha}/{buscar:alpha?")]
+        public async Task<IActionResult> Catalogo(string categoria, string buscar = "NA")
+        {
+            var response = new ResponseDTO<List<ProductoDTO>>();
+
+            try
+            {
+                if (categoria.ToLower() == "todos")
+                {
+                    categoria = "";
+                }
+                if (buscar == "NA")
+                {
+                    buscar = "";
+                }
+
+                response.EsCorrecto = true;
+                response.Resultado = await _productService.Directory(categoria, buscar);
             }
             catch (Exception ex)
             {
@@ -43,12 +71,12 @@ namespace BikerStorm.API.Controllers
         [HttpGet("Obtener/{Id:int}")]
         public async Task<IActionResult> Obtener(int Id)
         {
-            var response = new ResponseDTO<UsuarioDTO>();
+            var response = new ResponseDTO<ProductoDTO>();
 
             try
             {
                 response.EsCorrecto = true;
-                response.Resultado = await _userService.Get(Id);
+                response.Resultado = await _productService.Get(Id);
             }
             catch (Exception ex)
             {
@@ -58,16 +86,15 @@ namespace BikerStorm.API.Controllers
             return Ok(response);
         }
 
-
-        [HttpPost("Crear")]
-        public async Task<IActionResult> Crear([FromBody] UsuarioDTO model)
+        [HttpGet("Crear")]
+        public async Task<IActionResult> Crear([FromBody] ProductoDTO model)
         {
-            var response = new ResponseDTO<UsuarioDTO>();
+            var response = new ResponseDTO<ProductoDTO>();
 
             try
             {
                 response.EsCorrecto = true;
-                response.Resultado = await _userService.Create(model);
+                response.Resultado = await _productService.Create(model);
             }
             catch (Exception ex)
             {
@@ -76,36 +103,16 @@ namespace BikerStorm.API.Controllers
             }
             return Ok(response);
         }
-
-
-        [HttpPost("Autorizacion")]
-        public async Task<IActionResult> Autorizacion([FromBody] LoginDTO model)
-        {
-            var response = new ResponseDTO<SesionDTO>();
-
-            try
-            {
-                response.EsCorrecto = true;
-                response.Resultado = await _userService.Authorization(model);
-            }
-            catch (Exception ex)
-            {
-                response.EsCorrecto = false;
-                response.Mensaje = ex.Message;
-            }
-            return Ok(response);
-        }
-
 
         [HttpPut("Editar")]
-        public async Task<IActionResult> Editar([FromBody] UsuarioDTO model)
+        public async Task<IActionResult> Editar([FromBody] ProductoDTO model)
         {
             var response = new ResponseDTO<bool>();
 
             try
             {
                 response.EsCorrecto = true;
-                response.Resultado = await _userService.Edit(model);
+                response.Resultado = await _productService.Edit(model);
             }
             catch (Exception ex)
             {
@@ -115,8 +122,7 @@ namespace BikerStorm.API.Controllers
             return Ok(response);
         }
 
-
-        [HttpPut("Eliminar")]
+        [HttpPut("Eliminar/{Id:int}")]
         public async Task<IActionResult> Eliminar(int Id)
         {
             var response = new ResponseDTO<bool>();
@@ -124,7 +130,7 @@ namespace BikerStorm.API.Controllers
             try
             {
                 response.EsCorrecto = true;
-                response.Resultado = await _userService.Delete(Id);
+                response.Resultado = await _productService.Delete(Id);
             }
             catch (Exception ex)
             {
@@ -135,4 +141,3 @@ namespace BikerStorm.API.Controllers
         }
     }
 }
-
