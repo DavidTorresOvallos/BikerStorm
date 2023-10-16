@@ -17,7 +17,7 @@ namespace BikerStorm.API.Controllers
             this._productService = productService;
         }
 
-        [HttpGet("Lista/{buscar:alpha?")]
+        [HttpGet("Lista/{buscar:alpha?}")]
         public async Task<IActionResult> Lista(string buscar = "NA")
         {
             var response = new ResponseDTO<List<ProductoDTO>>();
@@ -40,7 +40,7 @@ namespace BikerStorm.API.Controllers
         }
 
 
-        [HttpGet("Catalogo/{categoria:alpha}/{buscar:alpha?")]
+        [HttpGet("Catalogo/{categoria:alpha}/{buscar:alpha?}")]
         public async Task<IActionResult> Catalogo(string categoria, string buscar = "NA")
         {
             var response = new ResponseDTO<List<ProductoDTO>>();
@@ -122,7 +122,7 @@ namespace BikerStorm.API.Controllers
             return Ok(response);
         }
 
-        [HttpPut("Eliminar/{Id:int}")]
+        [HttpDelete("Eliminar/{Id:int}")]
         public async Task<IActionResult> Eliminar(int Id)
         {
             var response = new ResponseDTO<bool>();

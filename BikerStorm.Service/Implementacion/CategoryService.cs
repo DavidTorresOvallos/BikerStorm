@@ -129,7 +129,7 @@ namespace BikerStorm.Service.Implementacion
             try
             {
                 var consulta = _modelRepository.Request(p =>
-                string.Concat(p.Descripcion.ToLower()).Contains(buscar.ToLower())
+                p.Descripcion!.ToLower().Contains(buscar.ToLower())
                 );
 
                 List<CategoriaDTO> list = _mapper.Map<List<CategoriaDTO>>(await consulta.ToListAsync());
