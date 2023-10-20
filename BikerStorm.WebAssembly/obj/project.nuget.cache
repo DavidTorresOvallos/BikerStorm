@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "XVaY8eByPSyLSbyOebVyW7rrz9avwb8SMI25ABkQIEIx0JD//lVNdAPiG7da/UqcJ4LOVXeXjfvBIYyCX6pkMw==",
+  "dgSpecHash": "c+1fiGDtSMUbhPJjbAlzCxeUbPBOapt0rU1Es6DqNzTS3j6tdMGM+V+F2RBfyAkPjq0Xodkn9sAi7lqoeVRxiw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\BikerStorm.WebAssembly.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\blazored.toast\\4.1.0\\blazored.toast.4.1.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\currietechnologies.razor.sweetalert2.5.5.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.11\\microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.11\\microsoft.aspnetcore.components.7.0.11.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.11\\microsoft.aspnetcore.components.analyzers.7.0.11.nupkg.sha512",

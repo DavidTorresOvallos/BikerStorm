@@ -20,16 +20,64 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Admin/Categories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Admin/Category.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Admin/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Admin/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Admin/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Admin/User.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Admin/Users.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Authorization/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yaXphdGlvblxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Authorization/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yaXphdGlvblxSZWdpc3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Store/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmVcQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Store/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmVcRGV0YWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Pages/Store/Directory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmVcRGlyZWN0b3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Shared/SurveyPrompt.razor]
@@ -39,11 +87,3 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ppci2vqpfm
-
-[D:/Projects/C\#/BikerStorm/BikerStorm.WebAssembly/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-xmxcvrg8mh

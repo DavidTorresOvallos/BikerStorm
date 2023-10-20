@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "58MKvOBKLDw5stdvcYq8m36wOxWp2dh0XKRvuFcgdPc=",
+  "Hash": "SD0Frsb4TlsnO85gwpkI/zxdWJrhZl9uQi+Yvhgccys=",
   "Source": "BikerStorm.WebAssembly",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\David\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css",
+      "SourceId": "Blazored.Toast",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\David\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Toast",
+      "RelativePath": "Blazored.Toast.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\David\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css"
+    },
     {
       "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Azure.Core.dll",
       "SourceId": "BikerStorm.WebAssembly",
@@ -185,6 +202,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.11\\build\\net7.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "BikerStorm.WebAssembly",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\David\\.nuget\\packages\\blazored.localstorage\\4.4.0\\lib\\net7.0\\Blazored.LocalStorage.dll"
+    },
+    {
+      "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.Toast.dll",
+      "SourceId": "BikerStorm.WebAssembly",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Toast.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\David\\.nuget\\packages\\blazored.toast\\4.1.0\\lib\\net7.0\\Blazored.Toast.dll"
     },
     {
       "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\dotnet.7.0.11.0q904vluoe.js",
@@ -6596,6 +6647,23 @@
       "OriginalItemSpec": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Encoding.CodePages.dll"
     },
     {
+      "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\obj\\Debug\\net7.0\\build-gz\\nBYPt3r0.gz",
+      "SourceId": "BikerStorm.WebAssembly",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
+    },
+    {
       "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\obj\\Debug\\net7.0\\build-gz\\NsHudHnP.gz",
       "SourceId": "BikerStorm.WebAssembly",
       "SourceType": "Computed",
@@ -7310,6 +7378,23 @@
       "OriginalItemSpec": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Compression.FileSystem.dll"
     },
     {
+      "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\obj\\Debug\\net7.0\\build-gz\\TbHyI6+l.gz",
+      "SourceId": "BikerStorm.WebAssembly",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Toast.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.Toast.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.Toast.dll"
+    },
+    {
       "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\obj\\Debug\\net7.0\\build-gz\\Td1XbA8K.gz",
       "SourceId": "BikerStorm.WebAssembly",
       "SourceType": "Computed",
@@ -7971,23 +8056,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BikerStorm.WebAssembly.styles.css"
-    },
-    {
-      "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BikerStorm.WebAssembly.bundle.scp.css",
-      "SourceId": "BikerStorm.WebAssembly",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "/",
-      "RelativePath": "BikerStorm.WebAssembly.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BikerStorm.WebAssembly.bundle.scp.css"
     },
     {
       "Identity": "D:\\Projects\\C#\\BikerStorm\\BikerStorm.WebAssembly\\wwwroot\\css\\app.css",

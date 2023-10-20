@@ -9,6 +9,8 @@
     "assembly": {
       "Azure.Core.dll": "sha256-bVqpNWSeRtduXc3XeKEzhDf0e5wtXQXAITXFg4LLm+Q=",
       "Azure.Identity.dll": "sha256-Zmlzr5CM+CpJVTCy6iMHQATerUReG7Ru91pePIeaYyE=",
+      "Blazored.LocalStorage.dll": "sha256-5V8ovY1srbIIz7lzzMhLd3nNJ9LJ6bHoBOnLJahv8Go=",
+      "Blazored.Toast.dll": "sha256-6wGoA8FmxkQCTFIXEM+U+Y2kJJnSTJXRYwuByAUPWGU=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-+79HPC+snrhJjzOJbwBnWtkWOY6jdopnEnle7ZiRr7Y=",
       "Microsoft.AspNetCore.Components.dll": "sha256-Ai5PTdfbdzeheOh7Ly3Uoqa3f175oOxvfu2QfxDZGso=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-IcQfwp7uOUAjEcK6s\/W097tVi886KFG0KQicOqtu2SU=",
@@ -226,17 +228,17 @@
       "mscorlib.dll": "sha256-X+o60j6cZnlI2vFFjdH81yYTAxx13\/wqnNSWTKbDsyw=",
       "netstandard.dll": "sha256-Cr6slBs\/R2v2t\/vecFDHbQHakbEhar0adYu0YemwiXI=",
       "System.Private.CoreLib.dll": "sha256-dDw5nzGJhW1jOjGfSJcs\/Mi4KQ+DZygXnoK+vJ+jHyk=",
-      "BikerStorm.DTO.dll": "sha256-z0wL\/TjtLfiVtjo5diCT4Q7+m7NGogQjoQiF\/vzCJFg=",
+      "BikerStorm.DTO.dll": "sha256-cv6RoiTVEFRWSs\/5ci494YylNgeIPHiDyTXFY6hDpT4=",
       "BikerStorm.Model.dll": "sha256-MHanoXRrL+Chbc3+51dwQIM+gStVimNOqS90hOui5No=",
-      "BikerStorm.WebAssembly.dll": "sha256-NooOauvXzheKn05eDwRePcxz7AwnI+5i7a7CchDMN44="
+      "BikerStorm.WebAssembly.dll": "sha256-qnf2ixHexDbGMGyvtSL6lFzaxs0DqTE8uAtPpK36M1o="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BikerStorm.DTO.pdb": "sha256-CWABRhCbXhEMdjOtLzIOjYyWqfml5qkIS42Vdunpi3A=",
+      "BikerStorm.DTO.pdb": "sha256-V7gzcuss2Dsr50tzo\/kmWNXc0XpWbDp3LFIWnc52elY=",
       "BikerStorm.Model.pdb": "sha256-weMgCuKHLFzpCmxfYaYjW\/5a98wlFEloAkjCs3EJyL4=",
-      "BikerStorm.WebAssembly.pdb": "sha256-DBa1V0GiYnKauYUMiJIKgIFq6W1YZDTqUvx4xTqTe34="
+      "BikerStorm.WebAssembly.pdb": "sha256-yEaTomq7jjKKZiOBlYTyBuzWJVy6PQS6lUu07lYnG4w="
     },
     "runtime": {
       "dotnet.7.0.11.0q904vluoe.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",

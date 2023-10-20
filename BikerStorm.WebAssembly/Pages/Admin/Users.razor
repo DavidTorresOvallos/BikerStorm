@@ -1,0 +1,29 @@
+﻿@page "/usuarios"
+
+@using BikerStorm.DTO;
+@using BikerStorm.WebAssembly.Services.Contrato;
+@inject IUserService userService;
+@inject IToastService toastService;
+@inject SweetAlertService Swal;
+
+
+<h3>Usuarios</h3>
+
+@code {
+    private List<UsuarioDTO>? lista = null;
+    private string buscar = "";
+
+    private async Task GetUsers(string valor = "")
+    {
+        var response = await userService.List("Administrador", valor);
+        if (response.EsCorrecto)
+        {
+            lista = (List<UsuarioDTO>)response.Resultado!;
+        } 
+        else
+        {
+            lista = new List<UsuarioDTO>();
+        }
+    }
+
+}
